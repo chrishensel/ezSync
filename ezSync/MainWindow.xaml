@@ -1,0 +1,16 @@
+﻿<Window x:Class="ezSync.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Width="75" Command="{Binding StartProcessCommand}"/>
+        <Label Content="Source:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="28" Width="92" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="107,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Text="{Binding Source}"/>
+        <Label Content="Destination:" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top" Height="28" Width="92" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="107,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Text="{Binding Destination}" />
+        <Label Content="Extensions:" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" Height="28" Width="92" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="107,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Text="{Binding ExtensionMask}" />
+        <ProgressBar HorizontalAlignment="Left" Height="20" Margin="107,147,0,0" VerticalAlignment="Top" Width="400" Value="{Binding Progress}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="107,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Text="{Binding ProgressText}"/>
+    </Grid>
+</Window>

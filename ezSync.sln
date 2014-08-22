@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ezSync", "ezSync\ezSync.csproj", "{F745C917-4D47-48AF-8B89-616DF3FD3DF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F745C917-4D47-48AF-8B89-616DF3FD3DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F745C917-4D47-48AF-8B89-616DF3FD3DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F745C917-4D47-48AF-8B89-616DF3FD3DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F745C917-4D47-48AF-8B89-616DF3FD3DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
